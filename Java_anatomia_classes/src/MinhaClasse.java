@@ -11,6 +11,16 @@ public class MinhaClasse {//corpo da classe com inciais maiusculas
 
         boolean estudante = true;//variavel do tipo boolean
         System.out.println(estudante);//imprime a variavel estudante
+        String primeiroNome = "Hebert";//variavel do tipo string
+        String segundoNome = " Pereira";//variavel do tipo string
+        String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);//variavel do tipo string
+        System.out.println(nomeCompleto);//imprime a variavel nomeCompleto
     }
-    
+    public static String nomeCompleto(String primeiroNome , String segundoNome) {//metodo do tipo string
+        return "resultado de metodo: " + primeiroNome.concat("").concat(segundoNome);//retorna a concatenação das variaveis
+    }
+
+
+
+
 }
