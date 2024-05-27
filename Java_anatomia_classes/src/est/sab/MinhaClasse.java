@@ -1,3 +1,4 @@
+package est.sab;
 public class MinhaClasse {//corpo da classe com inciais maiusculas
     public static void main(String[] args) {//medoto principal
         String nome = "Fulano";//variavel do tipo string
