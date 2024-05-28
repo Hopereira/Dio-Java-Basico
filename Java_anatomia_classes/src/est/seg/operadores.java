@@ -62,17 +62,13 @@ public class operadores {
 
         a1 = 5;
         b1 = 6;
-        String resultado ="";
+        
 
-        if (a == b)
-            resultado = "verdadeiro";
-        else
-            resultado = "falso";
-
+        
         // MESMA CONDICIONAL, MAS DESSA VEZ, UTILIZANDO O OPERADOR CONDICIONAL TERNÁRIO
-        String resultado = (a1 == b1) ? "verdadeiro" : "false";
+        String resultado = (a1 == b1) ? "verdadeiro" : "falso";
 
-        System.out.println(valor);
+        System.out.println(resultado);
     }
 
 }
