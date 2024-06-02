@@ -1,14 +1,8 @@
-// ResultadoEscolar.java
+// Cenário 1
 public class ResultadoEscolar {
-    public static void main(String[] args) {
-
-       int nota = 5;
-       
-       if(nota >= 6)
-        System.out.println("Aprovado");
-       else if (nota >= 4 && nota < 6)
-        System.out.println("Recuperação");
-        else
-        System.out.println("Reprovado");
-    }
+	public static void main(String[] args) {
+		int nota = 5;
+		String resultado = nota >=7 ? "Aprovado" : "Reprovado";
+		System.out.println(resultado);
+	}
 }
